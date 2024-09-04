@@ -4,7 +4,7 @@ import InputBox from "./components/InputBox";
 
 function App() {
   const [amount, setAmount] = useState("");
-  const [from, setFrom] = useState("usd");
+  const [from, setFrom] = useState("inr");
   const [to, setTo] = useState("bdt");
   const [convertedAmount, setConvertedAmount] = useState(0);
 
